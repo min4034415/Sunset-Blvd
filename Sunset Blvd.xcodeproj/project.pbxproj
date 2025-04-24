@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D60019D12DB9D11500C9C694 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60019D02DB9D11500C9C694 /* Bridge.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D667541C2D8C13FA00D7BBF8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D60019D02DB9D11500C9C694 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		D667541E2D8C13FA00D7BBF8 /* Sunset Blvd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sunset Blvd"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,6 +49,7 @@
 		D66754152D8C13FA00D7BBF8 = {
 			isa = PBXGroup;
 			children = (
+				D60019D02DB9D11500C9C694 /* Bridge.swift */,
 				D66754202D8C13FA00D7BBF8 /* Sunset Blvd */,
 				D667541F2D8C13FA00D7BBF8 /* Products */,
 			);
@@ -121,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60019D12DB9D11500C9C694 /* Bridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
